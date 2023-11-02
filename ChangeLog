@@ -1,5 +1,15 @@
 2023-11-02  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* package.json (version): Update to 1.1.0.
+	(description): Add description.
+
+2023-11-02  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* index.js (getHanziProducts): Renamed from `get_hanzi_products';
+	add `export'.
+
+2023-11-02  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* package.json (version): Update to "1.0.2".
 
 	* README.md: Add descriptions about "Install" and "How to Use".
