@@ -1,5 +1,9 @@
 2023-11-02  MORIOKA Tomohiko  <tomo.git@chise.org>
 
+	* README.md: Add descriptions about "Install" and "How to Use".
+
+2023-11-02  MORIOKA Tomohiko  <tomo.git@chise.org>
+
 	* package.json: Update to 1.0.1; fixed.
 
 	* index.js (ipfsIDSfind): Renamed from `ids_find'; add `export'.
