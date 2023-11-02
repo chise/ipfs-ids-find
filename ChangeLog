@@ -1,0 +1,13 @@
+2023-11-02  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* index.js: New file.
+
+	* package.json: New file.
+
+	* README.md: Add brief description.
+
+2023-11-02  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* LICENSE: Initial commit
+
+	* LICENSE: README.md
