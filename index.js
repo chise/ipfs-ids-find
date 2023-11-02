@@ -33,7 +33,7 @@ function intersection (sets) {
 // 	});
 
 
-async function ids_find (queries) {
+export async function ipfsIDSfind (queries) {
   //const queries = ['一', '口', '土', '田'];
 
   // 並行に非同期処理を実効
