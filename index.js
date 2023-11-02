@@ -1,4 +1,4 @@
-async function get_hanzi_products (character) {
+export async function getHanziProducts (character) {
   const ipfs_gw_URL = "http://localhost:8080";
   //const ipfs_gw_URL = "https://www.chise.org";
   //const ipfs_gw_URL = "https://ipfs.io";
@@ -13,7 +13,7 @@ async function get_hanzi_products (character) {
   return hanzi_products;
 }
 
-// get_hanzi_products ('字').then((v) => { console.log (v); });
+// getHanziProducts ('字').then((v) => { console.log (v); });
 
 
 function intersection (sets) {
@@ -25,8 +25,8 @@ function intersection (sets) {
   return set0;
 }
 
-// p1 = get_hanzi_products ('木');
-// p2 = get_hanzi_products ('口');
+// p1 = getHanziProducts ('木');
+// p2 = getHanziProducts ('口');
 // Promise.all([p1, p2])
 //   .then(([a, b]) => {
 // 	  console.log (a.filter((val_a) => b.includes(val_a)));
@@ -37,6 +37,6 @@ export async function ipfsIDSfind (queries) {
   //const queries = ['一', '口', '土', '田'];
 
   // 並行に非同期処理を実効
-  const ret = await Promise.all(queries.map(get_hanzi_products));
+  const ret = await Promise.all(queries.map(getHanziProducts));
   return intersection (ret);
 }
