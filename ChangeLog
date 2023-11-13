@@ -1,3 +1,12 @@
+2023-11-13  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* package.json (version): Update to 1.1.1.
+
+	* index.js (getHanziProducts): Use "https://www.chise.org" instead
+	of "http://localhost:8080" as the gateway; use
+	/ipfs/QmdrFS48D2cCyAfRY4j6LicSWJteUzqiJGDxkQABAJ3cqC instead of
+	/ipns/chise.org as the dataset path.
+
 2023-11-02  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* package.json (version): Update to 1.1.0.
