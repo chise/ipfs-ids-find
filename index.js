@@ -1,8 +1,9 @@
 export async function getHanziProducts (character) {
-  const ipfs_gw_URL = "http://localhost:8080";
-  //const ipfs_gw_URL = "https://www.chise.org";
+  //const ipfs_gw_URL = "http://localhost:8080";
+  const ipfs_gw_URL = "https://www.chise.org";
   //const ipfs_gw_URL = "https://ipfs.io";
-  const requestURL = ipfs_gw_URL + "/ipns/chise.org/v1/character/a/ucs/default/0x"
+  const requestURL = ipfs_gw_URL
+    + "/ipfs/QmdrFS48D2cCyAfRY4j6LicSWJteUzqiJGDxkQABAJ3cqC/v1/character/a/ucs/default/0x"
     + character.codePointAt(0).toString(16).toUpperCase() + "/ideographic-products.json";
   //console.log(requestURL);
   const request = new Request(requestURL);
