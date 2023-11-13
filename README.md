@@ -12,11 +12,6 @@ npm install ipfs-ids-find
 
 ## How to Use
 
-Notice
-
-You must run IPFS daemon of [Kubo](https://github.com/ipfs/kubo) before using this module.
-
-
 With Promise
 
 ```js
