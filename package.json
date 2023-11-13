@@ -1,6 +1,6 @@
 {
   "name": "ipfs-ids-find",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "CHISE IDS-Find via IPFS",
   "main": "index.js",
   "type": "module",
