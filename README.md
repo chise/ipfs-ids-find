@@ -34,3 +34,9 @@ async function test (){
 
 test ();
 ```
+
+## Applications
+
+### [A simple example of Web UI](https://www.chise.org/ipns/k51qzi5uqu5dkeviwyznbk4skcwm7596f4bl09ktf1r5z0orv66x6cnoa05gbr/index.ja.html)
+
+### [Command Line Interface](https://github.com/chise/ipfs-ids-find-cli)
