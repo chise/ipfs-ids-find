@@ -1,3 +1,10 @@
+2023-11-16  MORIOKA Tomohiko  <tomo.git@chise.org>
+
+	* package.json (version): Update to 1.1.4.
+
+	* index.js (async function): Revert to /ipns/chise.org instead of
+	CID as the dataset path.
+
 2023-11-13  MORIOKA Tomohiko  <tomo.git@chise.org>
 
 	* package.json (version): Update to 1.1.1.
